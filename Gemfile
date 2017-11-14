@@ -25,6 +25,8 @@ gem 'backbone-nested-attributes'
 gem "js-routes" # to define path helpers in asset pipeline
 gem 'sass-images', github: 'codegram/sass-images'
 gem 'bootstrap_form'
+gem 'sweet-alert'
+gem 'sweet-alert-confirm'
 
 # Use Unicorn as the app server
 gem 'puma'
