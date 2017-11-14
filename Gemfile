@@ -19,8 +19,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem "js-routes" # to define path helpers in asset pipeline
 gem "bower-rails"
+gem 'handlebars_assets'
+gem 'backbone-nested-attributes'
+gem "js-routes" # to define path helpers in asset pipeline
+gem 'sass-images', github: 'codegram/sass-images'
+gem 'bootstrap_form'
 
 # Use Unicorn as the app server
 gem 'puma'

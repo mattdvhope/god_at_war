@@ -2,7 +2,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require fontfaceobserver
-//= require cocoon
 //= require handlebars.runtime
 //= require underscore/underscore
 //= require backbone/backbone

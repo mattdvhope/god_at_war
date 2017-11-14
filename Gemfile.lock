@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/codegram/sass-images.git
+  revision: 77b4c42e1a020f724e0f9790538b5e7e136f62eb
+  specs:
+    sass-images (0.0.2)
+      mime-types
+      mini_magick (>= 3.5.0)
+      sass
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,8 +48,11 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (8.0.0)
+    backbone-nested-attributes (0.5.0)
+      rails (>= 3.2.8)
     binding_of_caller (0.7.3)
       debug_inspector (>= 0.0.1)
+    bootstrap_form (2.7.0)
     bower-rails (0.11.0)
     builder (3.2.3)
     byebug (9.1.0)
@@ -54,6 +66,10 @@ GEM
       thor (~> 0.14)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    handlebars_assets (0.23.2)
+      execjs (~> 2.0)
+      sprockets (>= 2.0.0)
+      tilt (>= 1.2)
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -73,6 +89,10 @@ GEM
     mail (2.7.0)
       mini_mime (>= 0.1.1)
     method_source (0.9.0)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_magick (4.8.0)
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     minitest (5.10.3)
@@ -156,15 +176,19 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  backbone-nested-attributes
+  bootstrap_form
   bower-rails
   byebug
   figaro
+  handlebars_assets
   jbuilder (~> 2.0)
   jquery-rails
   js-routes
   pg
   puma
   rails (= 5.1.4)
+  sass-images!
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
