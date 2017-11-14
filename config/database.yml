@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: god_at_war_development
+  host: localhost
+
+test:
+  <<: *default
+  database: god_at_war_test
+
+production:
+  <<: *default
+  database: god_at_war_production
+  password: <%= ENV['GOD_AT_WAR_DATABASE_PASSWORD'] %>
+
+
