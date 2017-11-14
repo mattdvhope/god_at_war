@@ -5,7 +5,6 @@
     "jasmine-jquery": "latest",
     "backbone": "latest",
     "jshint": "latest",
-    "sweetalert": "latest",
     "fontfaceobserver": "latest"
   }
 }

@@ -1,10 +1,11 @@
 //= require_tree ./templates
 //= require_tree ./models
 //= require_tree ./collections
-//= require_tree ./called
 //= require_tree ./views
 //= require_tree ./routers
-//= require_tree ./app_methods
+
+console.log("in init");
+
 
 var App = {
 
@@ -14,6 +15,7 @@ var App = {
 
   init: function() {
     this.getFrontMainPage();
+console.log("in init");
   }
 
 };

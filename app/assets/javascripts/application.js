@@ -11,3 +11,5 @@
 //= require sweet-alert-confirm
 
 //= require backbone/app
+
+console.log("in application");
