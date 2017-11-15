@@ -4,20 +4,16 @@
 //= require_tree ./views
 //= require_tree ./routers
 
-console.log("in init");
+  var App = {
+    getIndex: function() {
+      var main_page = new IndexView();
+      main_page.render();
+    },
 
+    init: function() {
+      this.getIndex();
+    }
 
-var App = {
+  };
 
-  getFrontMainPage: function() {
-    getFrontMainPage(); // in 'app_methods' folder
-  },
-
-  init: function() {
-    this.getFrontMainPage();
-console.log("in init");
-  }
-
-};
-
-App.init();
+  App.init();
